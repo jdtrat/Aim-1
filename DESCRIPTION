@@ -6,11 +6,7 @@ Authors@R:
            comment = c(ORCID = "0000-0003-2950-4395"))
     person("Jonathan D.", "Trattner", "jtrattne@wakehealth.edu", role = c("aut", "cre"),
            comment = c(ORCID = ""))
-Description: This package is used to simulate the basic task struture of the PIP, where participants are presented 
-with a cued interval of time and asked to reproduce the cued interval in the presence and absence of reinforcements.
-The simulated behavior is then modeled using a valence paritioned reinforcement learning algorithm that partitions out
-the valence of rewards from punishments using a reinforcement learning framework. We use this model to show that 
-reinforcement learning algorithms can be used to track time perception behavior.
+Description: This package is used to simulate the basic task struture of the PIP, where participants are presented with a cued interval of time and asked to reproduce the cued interval in the presence and absence of reinforcements. The simulated behavior is then modeled using a valence paritioned reinforcement learning algorithm that partitions out the valence of rewards from punishments using a reinforcement learning framework. We use this model to show that reinforcement learning algorithms can be used to track time perception behavior.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8

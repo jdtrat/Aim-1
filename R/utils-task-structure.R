@@ -1,16 +1,11 @@
 #' Generate PIP Structure
 #'
-#' @description Generate a task structure where each trial is a random sample of
-#' nine trial types, including three different interval durations with either a
-#' reward, punishment, or no reinforcement presented following interval
-#' reproduction.
-#'   ____.
+#' @description Generate a task structure where each trial is a random sample of nine trial types, including three different interval durations with either areward, punishment, or no reinforcement presented following interval reproduction.
 #'
-#' @param num_trials The number of trials presented during the task (144 with
-#' 16 trials of each type)
+#'
+#' @param num_trials The number of trials presented during the task (144 with 16 trials of each type)
 #' @param intervals The duration of the presented intervals (1000,3000,5000ms)
-#' @param reinforcements The reinforcement type presented on each trial (reward,
-#' punishment, or neutral (no reinforcement))
+#' @param reinforcements The reinforcement type presented on each trial (reward, punishment, or neutral (no reinforcement))
 #'
 #' @return A tibble with columns 'trial' representing the trial number, 'cue_id'
 #'   corresponding to the fractal image cue, 'interval' representing the
