@@ -16,3 +16,5 @@ Imports:
     targets
 Depends: 
     tidyverse
+URL: https://github.com/edimarco26/Aim-1
+BugReports: https://github.com/edimarco26/Aim-1/issues
